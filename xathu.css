@@ -1,0 +1,51 @@
+
+
+body{
+	margin: 0;
+	padding:0;
+}
+img{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+p{
+	background-color: black;
+	color: white;
+}
+#menu ul{
+	list-style-type: none;
+	background :#8e44ad;
+	text-align: center;
+
+}
+#menu ul li {
+	color: #2c3e50;
+	display: inline-table;
+	width: 120px;
+	hyphens: 40px;
+	line-height: 40px;
+	position: relative;
+	
+}
+#menu ul li a {
+	color: #f1f1f1;
+	text-decoration: none;
+	display: block;
+}
+#menu ul li a:hover {
+	background:#2ecc71;
+	color: #e74c3c;
+}
+#menu ul li > .dst{
+	display: none;
+	
+}
+#menu ul li:hover .dst{
+	display: block;
+	position: absolute;
+}
+ul.dst li a:hover {
+	background: blue;
+	color:red;
+}
